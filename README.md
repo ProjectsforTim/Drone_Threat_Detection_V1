@@ -1,37 +1,34 @@
-# 🛡️ Threat Detection Model V1
-
-A Roboflow-powered object detection model trained to identify civilian-grade drones from aerial imagery.  
-Model V1 was developed as an entry-level research and annotation project to explore AI-driven threat detection within counter-UAS contexts.
 
 ---
 
-## 🚀 Overview
-This project demonstrates the full cycle of AI model development:
-- Dataset design and annotation  
-- Model training and evaluation  
-- Metric tracking and visual performance analysis  
-
-The model was trained on **200 annotated drone images** using **YOLOv5**, achieving strong detection accuracy despite the small dataset size.
+## 🔍 Key Learnings
+- Dataset quality and annotation accuracy heavily influence detection performance.  
+- Even with limited training data, model V1 achieved robust detection reliability.  
+- Lays groundwork for **Model V2**, which expanded to 1,200+ annotations and achieved mAP@0.5 = 0.979.
 
 ---
 
-## 📊 Model V1 Performance
-
-| Metric | Value |
-|:--------|:------|
-| **Precision** | 0.89 |
-| **Recall** | 0.91 |
-| **mAP@0.5** | 0.92 |
-| **mAP@0.5–0.95** | 0.64 |
+## 🧾 Reproducibility
+This model is **fully reproducible** via the linked Colab notebook:  
+[Open in Google Colab](https://colab.research.google.com/drive/1JtoRteMlE2KbhiwVHtgJV41LP9OUWLi8#scrollTo=bgmusWkjB0_e)
 
 ---
 
-## 🧠 Methodology
-1. **Data Collection** – Civilian drone imagery gathered from publicly available datasets and verified sources.  
-2. **Annotation** – Bounding boxes manually drawn and validated in Roboflow.  
-3. **Model Training** – YOLOv5, trained for 50 epochs using Google Colab.  
-4. **Evaluation** – Standard COCO metrics used for precision, recall, and mAP analysis.
+## ⚙️ Tools & Frameworks
+- **YOLOv5** (ultralytics)  
+- **Roboflow** for dataset management  
+- **Google Colab** for training and evaluation  
+- **Python 3.10**, Torch 2.x  
 
 ---
 
-## 📂 Repository Structure
+## 🛠️ Next Steps
+- Expand dataset diversity (angles, distances, lighting conditions).  
+- Implement Model V2 comparisons for benchmark visibility.  
+- Prepare deployment-ready inference notebook for real-time detection scenarios.
+
+---
+
+## 📧 Contact
+Created by **Tim Lonergan**  
+For questions or collaboration, please connect via [LinkedIn](https://www.linkedin.com/in/timothylonergan/) or view my [AI Portfolio](https://projectsfortim.github.io/portfolio/).
