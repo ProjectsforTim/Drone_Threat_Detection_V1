@@ -27,4 +27,11 @@ The model was trained on **200 annotated drone images** using **YOLOv5**, achiev
 ---
 
 ## 🧠 Methodology
-1. **Data Collection** – Civilian drone imagery gathered from publicly available datasets and verified so
+1. **Data Collection** – Civilian drone imagery gathered from publicly available datasets and verified sources.  
+2. **Annotation** – Bounding boxes manually drawn and validated in Roboflow.  
+3. **Model Training** – YOLOv5, trained for 50 epochs using Google Colab.  
+4. **Evaluation** – Standard COCO metrics used for precision, recall, and mAP analysis.
+
+---
+
+## 📂 Repository Structure
